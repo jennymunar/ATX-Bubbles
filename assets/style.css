@@ -1,0 +1,51 @@
+
+
+.header img{
+   display: block;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   color: black;
+}
+
+.header ul {
+    text-align: right;
+    color: black;
+}
+
+.header li {
+    display:flex;
+    justify-content: right;
+    margin-right: 10px;
+    color: black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.grid img{
+    border: 1px solid #ccc;
+    max-width: 100%;
+}
+
+.about {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.contact-us {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
